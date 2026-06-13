@@ -4,7 +4,7 @@ Superpowers is a complete software development methodology for your coding agent
 
 ## Quickstart
 
-Give your agent Superpowers: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).
+Give your agent Superpowers: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [MiMoCode](#mimocode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).
 
 ## How it works
 
@@ -126,6 +126,30 @@ already use it in another harness.
   ```
 
 - Detailed docs: [docs/README.opencode.md](docs/README.opencode.md)
+
+### MiMoCode
+
+[MiMoCode](https://github.com/mimo-ai/mimocode) is an AI-powered coding agent
+CLI built by the Xiaomi MiMo Team. It helps developers with software engineering
+tasks through interactive conversation and tool execution. MiMoCode is derived
+from OpenCode and uses the same plugin system. Install Superpowers separately
+even if you already use it in another harness.
+
+- Add to your `mimocode.jsonc`:
+
+  ```jsonc
+  {
+    "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
+  }
+  ```
+
+- Or tell MiMoCode:
+
+  ```
+  Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.mimocode/INSTALL.md
+  ```
+
+- Detailed docs: [docs/README.mimocode.md](docs/README.mimocode.md)
 
 ### Cursor
 

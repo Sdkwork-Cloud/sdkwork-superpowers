@@ -10,7 +10,7 @@ Add superpowers to the `plugin` array in your `mimocode.jsonc` (global or projec
 
 ```jsonc
 {
-  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
+  "plugin": ["superpowers@git+https://github.com/Sdkwork-Cloud/sdkwork-superpowers.git"]
 }
 ```
 
@@ -59,7 +59,7 @@ To pin a specific version:
 
 ```jsonc
 {
-  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git#v5.0.3"]
+  "plugin": ["superpowers@git+https://github.com/Sdkwork-Cloud/sdkwork-superpowers.git#v5.0.3"]
 }
 ```
 
@@ -80,7 +80,7 @@ the plugin, try installing with system npm and pointing MiMoCode at the local
 package:
 
 ```powershell
-npm install superpowers@git+https://github.com/obra/superpowers.git --prefix "$HOME\.config\mimocode"
+npm install superpowers@git+https://github.com/Sdkwork-Cloud/sdkwork-superpowers.git --prefix "$HOME\.config\mimocode"
 ```
 
 Then use the installed package path in `mimocode.jsonc`:
@@ -106,5 +106,5 @@ When skills reference Claude Code tools:
 
 ## Getting Help
 
-- Report issues: https://github.com/obra/superpowers/issues
-- Full documentation: https://github.com/obra/superpowers/blob/main/docs/README.mimocode.md
+- Report issues: https://github.com/Sdkwork-Cloud/sdkwork-superpowers/issues
+- Full documentation: https://github.com/Sdkwork-Cloud/sdkwork-superpowers/blob/main/docs/README.mimocode.md

@@ -262,3 +262,6 @@ Superpowers is built by [Jesse Vincent](https://blog.fsck.com) and the rest of t
 - [docs/product/prd/PRD.md](docs/product/prd/PRD.md)
 - [docs/architecture/tech/TECH_ARCHITECTURE.md](docs/architecture/tech/TECH_ARCHITECTURE.md)
 
+## Application Roots
+
+- [apps directory index](apps/README.md)

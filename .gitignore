@@ -30,3 +30,7 @@ triage/
 **/.sdkwork/cache/
 **/.sdkwork/secrets/
 tools/.gateway-alignment-report.json
+
+# SDKWork local runtime state
+.runtime/
+**/.runtime/
